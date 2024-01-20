@@ -1,5 +1,5 @@
 {
-  "name": "react-native-image-marker",
+  "name": "@notreks/react-native-image-marker-total",
   "version": "1.2.2",
   "description": "Add text or icon watermark to your images",
   "main": "lib/commonjs/index",
@@ -48,7 +48,10 @@
     "watermark",
     "icon"
   ],
-  "repository": "https://github.com/JimmyDaddy/react-native-image-marker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimmyDaddy/react-native-image-marker.git"
+  },
   "author": "jimmydaddy <heyjimmygo@gmail.com> (https://github.com/JimmyDaddy)",
   "license": "MIT",
   "bugs": {
@@ -171,5 +174,9 @@
   "dependencies": {
     "patch-package": "^8.0.0",
     "postinstall-postinstall": "^2.1.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "example"
   }
 }
